@@ -23,20 +23,20 @@
         "password": "xxx"
   нужно указать свой логин и пароль
 
-  how to install
+ h3. how to install
   https://docs.qameta.io/allure/#_installing_a_commandline
   нужно в системные переменные PATH добавить путь к allure
   E:\prog\allure\allure-2.18.1\bin;
   https://www.youtube.com/watch?v=xdjN-4UxL1c
 
-  how to install pytest
-  pip install pytest
-  pip install allure-pytest
-  pip install pytest-adapter-allure
-  pip install selenium-page-factory
-  pip install pyautogui // create screenshot
-  pip install pytest-firefox
-  pip install webdriver-manager
+  h3. how to install pytest
+  * pip install pytest
+  * pip install allure-pytest
+  * pip install pytest-adapter-allure
+  * pip install selenium-page-factory
+  * pip install pyautogui // create screenshot
+  * pip install pytest-firefox
+  * pip install webdriver-manager
 
   pytest-django - not install
 
@@ -47,20 +47,20 @@
   pytest --version
 
   run firefox
-  pytest main.py::TestYandexMail --alluredir="E:\python_scripts\code\neoflex\allure-results" --browser firefox
+  * pytest main.py::TestYandexMail --alluredir="E:\python_scripts\code\neoflex\allure-results" --browser firefox
 
   run chrome
-  pytest main.py::TestYandexMail --alluredir="E:\python_scripts\code\neoflex\allure-results" --browser chrome
+  * pytest main.py::TestYandexMail --alluredir="E:\python_scripts\code\neoflex\allure-results" --browser chrome
 
 
   run without· allure:
-  E:\python scripts\code\neoflex> pytest main.py::TestYandexMail
+  * E:\python scripts\code\neoflex> pytest main.py::TestYandexMail
 
   run with allure:
-  pytest main.py::TestYandexMail --alluredir="E:\python_scripts\code\neoflex\allure-results"
-  pytest main.py::TestYandexMail::test_draft --alluredir="E:\python_scripts\code\neoflex\allure-results"
-  pytest main.py::TestYandexMail::test_send_letter --alluredir="E:\python_scripts\code\neoflex\allure-results"
-  pytest main2.py --alluredir=result
+  * pytest main.py::TestYandexMail --alluredir="E:\python_scripts\code\neoflex\allure-results"
+  * pytest main.py::TestYandexMail::test_draft --alluredir="E:\python_scripts\code\neoflex\allure-results"
+  * pytest main.py::TestYandexMail::test_send_letter --alluredir="E:\python_scripts\code\neoflex\allure-results"
+  * pytest main2.py --alluredir=result
 
   allure serve E:\python_scripts\code\neoflex\allure-results
 
