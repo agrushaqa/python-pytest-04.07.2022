@@ -24,11 +24,11 @@
   нужно указать свой логин и пароль
 
 <h2> how to install </h2>
-  * https://docs.qameta.io/allure/#_installing_a_commandline
-  * нужно в системные переменные PATH добавить путь к allure
+``` https://docs.qameta.io/allure/#_installing_a_commandline
+   нужно в системные переменные PATH добавить путь к allure
   E:\prog\allure\allure-2.18.1\bin;
-  * https://www.youtube.com/watch?v=xdjN-4UxL1c
-
+   https://www.youtube.com/watch?v=xdjN-4UxL1c
+```
   <h2> how to install pytest </h2>
   * pip install pytest
   * pip install allure-pytest
