@@ -30,6 +30,7 @@
    https://www.youtube.com/watch?v=xdjN-4UxL1c
 ```
   <h2> how to install pytest </h2>
+  
   * pip install pytest  
   * pip install allure-pytest  
   * pip install pytest-adapter-allure
