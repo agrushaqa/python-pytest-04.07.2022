@@ -23,7 +23,7 @@
         "password": "xxx"
   нужно указать свой логин и пароль
 
- h3. how to install
+<h2> how to install </h2>
 * https://docs.qameta.io/allure/#_installing_a_commandline
 * нужно в системные переменные PATH добавить путь к allure
   E:\prog\allure\allure-2.18.1\bin;
